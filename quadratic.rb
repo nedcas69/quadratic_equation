@@ -40,5 +40,5 @@ c = c.to_f
     end
 
 else
-    puts "#{s}x^2+#{n}x+#{v}=0 "
+    puts "#{s}•x²+#{n}•x+#{v}=0 "
 end
