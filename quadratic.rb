@@ -4,10 +4,10 @@ puts "Введите значение b"
 n = STDIN.gets.chomp
 puts "Введите значение c"
 v = STDIN.gets.chomp
-a = a.scan(/\d/).join('')
-b = b.scan(/\d/).join('')
-c = c.scan(/\d/).join('')
-if a != '' || b != '' || c != ''
+a = s.scan(/\d/).join('')
+b = n.scan(/\d/).join('')
+c = v.scan(/\d/).join('')
+if a != '' && b != '' && c != ''
 a = a.to_f
 b = b.to_f
 c = c.to_f
