@@ -1,3 +1,4 @@
+puts "Решаем уравнение a•x²+b•x+c=0"
 puts "Введите значение а"
 s = STDIN.gets.chomp
 puts "Введите значение b"
