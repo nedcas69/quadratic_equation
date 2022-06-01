@@ -14,7 +14,7 @@ a = ''.join(a)
 b = ''.join(b)
 c = ''.join(c)
 # если значение строк не пустая переводим значения в float и решаем задачу
-if  a.strip() == 0  or  b.strip() == 0 or  c.strip() == 0:
+if  a.strip() != ''  or  b.strip() != '' or  c.strip() != '':
     a = float(a)
     b = float(b)
     c = float(c)
